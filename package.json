@@ -1,0 +1,39 @@
+{
+	"name": "kiedyprzyjedzie-pl",
+	"description": "Unofficial JavaScript client for KiedyPrzyjedzie.pl public transport system.",
+	"version": "1.0.0",
+	"keywords": [
+		"kiedyprzyjedzie",
+		"public transport",
+		"poland",
+		"api",
+		"bus",
+		"timetable",
+		"departures"
+	],
+	"author": "Łukasz Majka (https://github.com/aszzaf)",
+	"homepage": "https://github.com/aszzaf/kiedyprzyjedzie",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/aszzaf/kiedyprzyjedzie.git"
+	},
+	"bugs": "https://github.com/aszzaf/kiedyprzyjedzie/issues",
+	"main": "index.js",
+	"files": [
+		"index.js",
+		"lib/*"
+	],
+	"dependencies": {
+		"axios": "^1.6.2"
+	},
+	"devDependencies": {
+		"jest": "^29.7.0"
+	},
+	"scripts": {
+		"test": "jest"
+	},
+	"engines": {
+		"node": ">=14"
+	},
+	"license": "ISC"
+}
